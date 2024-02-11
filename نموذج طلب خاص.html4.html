@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>نموذج طلب </title>
+    <style>
+        
+        form {
+            width: 400px;
+            margin: 0 auto;
+            font-family: Arial, sans-serif;
+        }
+        
+        h2, h3 {
+            color: #333;
+        }
+        
+        fieldset {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        
+        legend {
+            font-weight: bold;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        
+        input[type="text"], textarea {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+        }
+        
+        input[type="email"] {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+        }
+        
+        input[type="checkbox"] {
+            margin-right: 5px;
+        }
+        
+        textarea {
+            height: 100px;
+        }
+        
+        input[type="submit"] {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        
+        input[type="submit"]:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h2>شكوى</h2>
+    <form action="https://getform.io/f/e3adef92-b96c-4f07-8964-acab26ecdd11" method="POST">
+        <fieldset>
+            <legend>طلب خاص</legend>
+            
+            <label for="name">الاسم:</label>
+            <input type="text" id="name" name="name"><br><br>
+            
+            <label for="phone">رقم الهاتف:</label>
+            <input type="text" id="phone" name="phone"><br><br>
+            
+            <label for="email">البريد الإلكتروني:</label>
+            <input type="email" id="email" name="email"><br><br>
+            
+            <label for="discrabtion">وصف الطلب</label>
+<textarea name="discrabtion"  cols="30" rows="10"></textarea>      
+  </fieldset>
+        
+        <input type="submit" value="إرسال">
+    </form>
+</body>
+</html>
